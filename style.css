@@ -1,0 +1,94 @@
+@font-face {font-family: 'AvenirNextLTPro-UltLt';src: url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.eot');src: url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.eot?#iefix') format('embedded-opentype'),url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.woff') format('woff'),url('https://code.ionicframework.com/assets/fonts/29CC36_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirNextLTPro-Regular';src: url('https://code.ionicframework.com/assets/fonts/28882F_0_0.eot');src: url('https://code.ionicframework.com/assets/fonts/28882F_0_0.eot?#iefix') format('embedded-opentype'),url('https://code.ionicframework.com/assets/fonts/28882F_0_0.woff') format('woff'),url('https://code.ionicframework.com/assets/fonts/28882F_0_0.ttf') format('truetype');}
+body {
+    background-color: #202734;
+    color: #c1d9ff;
+    font-size: 16px;
+    font-family: "AvenirNextLTPro-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #e5eeff;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 44px;
+    margin: 50px 0 20px 0;
+    font-family: "AvenirNextLTPro-UltLt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 strong {
+    font-family: "AvenirNextLTPro-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #f2f6ff;
+}
+
+div.heading {
+    text-align: center;
+    letter-spacing: 1px;
+    color: #8895ad;
+    font-size: 20px;
+    font-weight: 300;
+    
+    /* font-family: "AvenirNextLTPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+div.heading.small {
+    font-size: 12px;
+}
+
+div.heading.padding {
+    margin-bottom: 20px;
+}
+
+div.heading:last-child {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #bacae9;
+}
+
+form .btn {
+    margin: 0 auto;
+}
+
+.ion {
+    display: block;
+    max-width: 300px;
+    min-width: 300px;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.ion .bottom {
+    padding: 20px 15px;
+    background-color: white;
+    border-radius: 3px;
+    color: 
+}
+
+.ion h3 {
+    color: #36393f;
+    font-family: "AvenirNextLTPro-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.ion h4 {
+    color: #73777d;
+}
+
+.ion p {
+    color: #777;
+    font-size: 13px;
+}
+
+.result {
+    display: none;
+}
+
+.image {
+    text-align: center;
+}
